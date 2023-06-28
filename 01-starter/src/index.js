@@ -31,7 +31,7 @@ function App() {
     <div className="grid-parent">
       <Header size={size} color={color} like={like}/>      
       <SideBar size={size} color={color} handleSize={handleSize} handleColor={handleColor} changeFontStyle={changeFontStyle}/>     
-      <MainArea size={size}/>      
+      <MainArea size={size} color={color} />      
       <Footer handleLike={handleLike} changeFontSize={changeFontSize}/>      
     </div>
   )
